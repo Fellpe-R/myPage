@@ -50,6 +50,11 @@ body{
     text-transform: uppercase;
     letter-spacing: 4px;
     font-size: 12px;
+    transition: color 0.3s linear;
+}
+
+.menu a:hover{
+    color:white;
 }
 
 .bg-header{
@@ -105,9 +110,8 @@ article{
 
 .content3{
     background-image: url(files/imagens/bg_detalhe.png);
+    background-color: #003d52;
     background-repeat: no-repeat;
-    background-attachment: local;
-    background-size: cover;
     background-position: bottom right;
 }
 
